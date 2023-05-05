@@ -1,0 +1,19 @@
+.hero {
+  background: url("./assets/bg_hero.jpg");
+
+  &Content {
+      color: #ffffff;
+
+      h2 {
+          color: #ffffff;
+      }
+  }
+}
+
+.benefits {
+  background: url("./assets/bg_books.png");
+}
+
+.features {
+  background: url("./assets/bg_laptop.jpg");
+}
