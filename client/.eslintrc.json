@@ -112,7 +112,9 @@
 					"**/*.stories.tsx"
 					]
 			}
-			]
+			],
+			"react/display-name": "off",
+			"no-param-reassign": ["error", { "props": false }]
 	},
 	"ignorePatterns": ["vite.config.ts"],
 	"settings": {
