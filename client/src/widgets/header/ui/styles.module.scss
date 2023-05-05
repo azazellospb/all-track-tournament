@@ -1,0 +1,27 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  .toolbar {
+    display: flex;
+    align-items: center;
+    &Action {
+      display: flex;
+      flex-direction: column;
+      margin: 0 10px;
+      line-height: 16px;
+  
+      &Disabled {
+          pointer-events: none;
+          opacity: 0.5;
+      }
+  
+      &Icon {
+          text-align: center;
+      }
+    }
+  }
+}
+
